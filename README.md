@@ -69,7 +69,7 @@ or **low-resolution profiling**. In contrast, our work:
 
 ---
 
-## 🧠 Key Contributions
+## 🧠 Contributions
 
 ### 1. Population-Scale, High-Resolution Microbiome Profiling
 
