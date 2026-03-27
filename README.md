@@ -44,7 +44,7 @@ This first project establishes the foundation of our oral microbiome research li
 
 ### 1. Study design and association landscape
 <div align="center">
-  <img src="./project1_overview.png" alt="Project 1 overview" width="88%" />
+  <img src="./Figures/project1/fig1.png" alt="Project 1 overview" width="88%" />
 </div>
 
 **What this figure shows**
@@ -54,28 +54,28 @@ This first project establishes the foundation of our oral microbiome research li
 
 ### 2. Core oral strains associated with metabolic phenotypes
 <div align="center">
-  <img src="./project1_core_strains.png" alt="Core strain signals" width="78%" />
+  <img src="./Figures/project1/fig2.png" alt="Core strain signals" width="78%" />
 </div>
 
 This heatmap highlights representative oral strains with **favorable**, **adverse**, or **mixed** metabolic profiles across liver, CGM, and body-composition traits.
 
 ### 3. Core gene-family markers
 <div align="center">
-  <img src="./project1_core_genes.png" alt="Core gene-family signals" width="78%" />
+  <img src="./Figures/project1/fig3.png" alt="Core gene-family signals" width="78%" />
 </div>
 
 This panel summarizes the most informative microbial **gene families**, including signals linked to biosynthesis, replication, stress response, and metabolic regulation.
 
 ### 4. Core pathway markers
 <div align="center">
-  <img src="./project1_core_pathways.png" alt="Core pathway signals" width="78%" />
+  <img src="./Figures/project1/fig4.png" alt="Core pathway signals" width="78%" />
 </div>
 
 This pathway view highlights biologically interpretable functions, including favorable biosynthetic programs and adverse pathways such as **polyamine biosynthesis** and **ceramide-related metabolism**.
 
 ### 5. Disease classification potential
 <div align="center">
-  <img src="./project1_classification.png" alt="Disease classification results" width="82%" />
+  <img src="./Figures/project1/fig5.png" alt="Disease classification results" width="82%" />
 </div>
 
 Phenotype-selected oral features improved predictive performance for **hypertension**, **pre-diabetes**, **obesity**, **fatty liver**, **hypercholesterolaemia**, and **cholelithiasis/gallstones**, showing the translational potential of oral microbiome markers.
