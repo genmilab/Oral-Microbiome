@@ -97,22 +97,34 @@ control**.
 ---
 
 ## 🔬 Key Findings
-📡 Dynamic glucose patterns via continuous glucose monitoring (CGM)
-🫀 Liver inflammation and status via ultrasound
-⚖️ Visceral adiposity via DXA scans
-To systematically map how oral microbes relate to metabolic physiology, we built a framework analogous to GWAS—only instead of scanning genomes, we scanned oral microbial strains, gene families, and pathways.
-🔍 What we found was striking:
-213 strains, 124,603 gene families, and 299 pathways showed significant associations with metabolic traits.
-Several oral microbial functions exhibited multisystem relevance.
-Acyl carrier protein (ACP) was linked to lower liver inflammation and reduced adiposity.
-Pathways like polyamine biosynthesis and ceramide α-oxidation tracked higher glucose variability and adverse liver and adiposity phenotypes.
-When predicting six metabolic diseases, models built only on significant oral features outperformed those using the full metagenomic feature set—highlighting their robustness and signal-to-noise advantage.
-✨ Why this matters
+## 🔑 Key Findings
+
+### 📡 Dynamic Glucose Patterns
+- Observed via continuous glucose monitoring (CGM)
+
+### 🫀 Liver Inflammation
+- Assessed using ultrasound
+
+### ⚖️ Visceral Adiposity
+- Measured through DXA scans
+
+To systematically map how oral microbes relate to metabolic physiology, we built a framework analogous to Genome-Wide Association Studies (GWAS)—only instead of scanning genomes, we scanned oral microbial strains, gene families, and pathways.
+
+### 🔍 What We Found
+- **213 strains**, **124,603 gene families**, and **299 pathways** showed significant associations with metabolic traits.
+- Several oral microbial functions exhibited multisystem relevance:
+  - Acyl carrier protein (ACP) was linked to lower liver inflammation and reduced adiposity.
+  - Pathways like polyamine biosynthesis and ceramide α-oxidation tracked higher glucose variability and adverse liver and adiposity phenotypes.
+  
+When predicting six metabolic diseases, models built solely on significant oral features outperformed those using the full metagenomic feature set—highlighting their robustness and signal-to-noise advantage.
+
+### ✨ Why This Matters
 Our results provide large-scale, cross-organ evidence that the oral microbiome encodes system-specific metabolic information—far beyond what we previously understood. These findings:
-Offer a phenotype-resolved map for mechanistic research
-Suggest new opportunities for non-invasive metabolic risk stratification
-Highlight oral microbial pathways as promising targets for future interventions
-### Association Summary
+- Offer a phenotype-resolved map for mechanistic research
+- Suggest new opportunities for non-invasive metabolic risk stratification
+- Highlight oral microbial pathways as promising targets for future interventions
+
+
 
 | Molecular Layer     | Significant Associations |
 |--------------------|--------------------------|
