@@ -6,7 +6,7 @@
 
 <div align="center">
   <img
-    src="./Figures/project1/Oral1.png"
+    src="./Figures/project1/oral1.png"
     alt="Study design and association landscape"
     width="88%"
   />
