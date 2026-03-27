@@ -4,6 +4,15 @@
 > glucose regulation, and body composition?
 > We confidently answer **"yes"** — and at an unprecedented scale.
 
+<div align="center">
+  <img
+    src="./Figures/project1/Oral1.png"
+    alt="Study design and association landscape"
+    width="88%"
+  />
+</div>
+
+
 This repository contains code, analysis pipelines, and resources centered
 on the **oral microbiome**, emphasizing large-scale, high-resolution studies
 that link the oral microbiome to human health.
