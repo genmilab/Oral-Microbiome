@@ -96,8 +96,8 @@ control**.
 
 ---
 
-## 🔬 Key Findings
-## 🔑 Key Findings
+## 🔑 Findings
+## 
 
 ### 📡 Dynamic Glucose Patterns
 - Observed via continuous glucose monitoring (CGM)
