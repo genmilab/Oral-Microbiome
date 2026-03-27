@@ -1,74 +1,86 @@
-# 🧬 Oral Microbiome
+# 🧬 Oral Microbiome as a Window Into Metabolic Health
 
-This repository hosts code, analysis pipelines, and resources for **oral microbiome**, with a focus on large-scale, high-resolution studies linking the oral microbiome to human health.
+> Can a simple oral swab provide valuable insights into your liver health,
+> glucose regulation, and body composition?
+> We confidently answer **"yes"** — and at an unprecedented scale.
 
----
+This repository contains code, analysis pipelines, and resources centered
+on the **oral microbiome**, emphasizing large-scale, high-resolution studies
+that link the oral microbiome to human health.
 
-## 🚀 Project Roadmap
-
-Our research is organized as a series of projects aimed at systematically uncovering the role of the oral microbiome in systemic diseases.
-
-### ** Population-scale Characterization of the Oral Microbiome and Associations with Metabolic Health**
-
-📄 *Published in Nature Communications*
-
-This project establishes the foundation of our research by constructing a **population-scale, multi-layer association atlas** linking the oral microbiome to host metabolic health.
-
----
-
-## 🔍 Overview
-
-We integrate **whole-metagenome oral microbiome data** with **deep metabolic phenotyping** to identify microbial signatures associated with metabolic traits across multiple physiological systems.
-
-This repository provides code to reproduce all analyses from the paper:
-
-> **“Population-scale Characterization of the Oral Microbiome and Associations with Metabolic Health”**
+![GitHub repo size](https://img.shields.io/github/repo-size/your-org/your-repo)
+![GitHub stars](https://img.shields.io/github/stars/your-org/your-repo?style=social)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/your-org/your-repo)
 
 ---
 
-## 📊 At a Glance
+## 📋 Table of Contents
 
-- **Cohort:** 9,431 participants (Human Phenotype Project, HPP)  
-- **Phenotyping depth:** 44 metabolic traits across:
-  - Liver ultrasound  
-  - Continuous glucose monitoring (CGM)  
-  - DXA-based body composition  
-- **Microbiome resolution:**
-  - Strain-level  
-  - Gene-family level  
-  - Pathway level  
-- **Output:** A comprehensive **oral microbiome–metabolism association atlas**
+- [Roadmap](#-roadmap)
+- [Why This Work Matters](#-why-this-work-matters)
+- [Key Contributions](#-key-contributions)
+- [Key Findings](#-key-findings)
+- [Visual Overview](#-visual-overview)
+- [Citation](#-citation)
+
+---
+
+## 🚀 Roadmap
+
+Our goal is to systematically elucidate the role of the oral microbiome
+in systemic diseases. Utilizing a **microbiome-wide association study (MWAS)**
+framework, we have developed a comprehensive multi-layer map that encompasses:
+
+| Component               | Detail                                                                 |
+|------------------------|------------------------------------------------------------------------|
+| **Cohort**             | 9,431 participants from the Human Phenotype Project (HPP)              |
+| **Phenotyping Depth**  | 44 metabolic traits (Liver ultrasound, CGM, DXA body composition)      |
+| **Microbiome Layers**  | Strain-level · Gene-family level · Pathway level                       |
+| **Output**             | Oral microbiome–metabolism association atlas                           |
+
+We integrate **whole-metagenome oral microbiome data** with
+**in-depth metabolic phenotyping** to uncover microbial signatures linked
+to metabolic traits across various physiological systems.
 
 ---
 
 ## 💡 Why This Work Matters
 
-Most microbiome studies are limited by either **small cohorts** or **low-resolution profiling**.
+Many microbiome studies are constrained by either **small sample sizes**
+or **low-resolution profiling**. In contrast, our work:
 
-In contrast, this work:
-- Combines **population-scale data** with **whole-metagenome resolution**
-- Integrates **multi-system metabolic phenotyping**
-- Enables discovery of **both system-specific and cross-phenotype microbial signals**
+- ✅ Merges **population-scale data** with **whole-metagenome resolution**
+- ✅ Integrates **multi-system metabolic phenotyping**
+- ✅ Facilitates discovery of **both system-specific and cross-phenotype
+  microbial signals**
 
-This creates a **new reference framework** for studying the oral microbiome in human health and disease.
+> This establishes a **new reference framework** for investigating the oral
+> microbiome's role in human health and disease.
 
 ---
 
 ## 🧠 Key Contributions
 
-### 1. Population-scale, high-resolution microbiome profiling  
-We analyze standardized bilateral buccal-swab whole-metagenome data from **9,431 individuals**, paired with rich metabolic phenotypes.
+### 1. Population-Scale, High-Resolution Microbiome Profiling
 
-### 2. A unified multi-layer MWAS framework  
-We introduce a rigorous framework to test associations across:
-- Strains  
-- Gene families  
-- Pathways  
+We analyze standardized bilateral buccal-swab whole-metagenome data from
+**9,431 individuals**, complemented by rich metabolic phenotypes.
 
-Using covariate-adjusted models and **layer-specific multiple testing control**.
+### 2. A Unified Multi-Layer MWAS Framework
 
-### 3. Translational and validated outputs  
-- A **multi-system association atlas**
+We present a robust framework for testing associations across:
+
+- Strains
+- Gene families
+- Pathways
+
+Employing covariate-adjusted models and **layer-specific multiple testing
+control**.
+
+### 3. Translational and Validated Outputs
+
+- A comprehensive **multi-system association atlas**
 - Identification of **cross-phenotype microbial markers**
 - Demonstration of **metabolic disease classification**
 - **External validation** in an independent cohort
@@ -77,88 +89,140 @@ Using covariate-adjusted models and **layer-specific multiple testing control**.
 
 ## 🔬 Key Findings
 
-- Significant associations identified:
-  - **213 strains**
-  - **124,603 gene families**
-  - **299 pathways**
+### Association Summary
 
-- **Strain-level signals** are enriched for:
-  → Body composition traits  
+| Molecular Layer     | Significant Associations |
+|--------------------|--------------------------|
+| Strains             | 213                      |
+| Gene Families       | 124,603                  |
+| Pathways            | 299                      |
 
-- **Functional signals (genes & pathways)** are enriched for:
-  → Glucose regulation (CGM-derived phenotypes)
+### Signal Enrichment
 
-- Oral microbiome features improve prediction of:
-  - Hypertension  
-  - Pre-diabetes  
-  - Obesity  
-  - Fatty liver  
-  - Hypercholesterolaemia  
-  - Gallstones  
+- **Strain-level signals** → enriched for **body composition traits**
+- **Functional signals** (genes & pathways) → enriched for
+  **glucose regulation** (CGM-derived phenotypes)
 
-- Key BMI and waist-related signals **replicate directionally** in an independent cohort of **20,293 individuals**
+### Disease Prediction
+
+Oral microbiome features enhance prediction of:
+
+- 🫀 Hypertension
+- 🩸 Pre-diabetes
+- ⚖️ Obesity
+- 🫁 Fatty liver
+- 🧪 Hypercholesterolemia
+- 🪨 Gallstones
+
+### Replication
+
+> Key BMI and waist-related signals **replicate directionally** in an
+> independent cohort of **20,293 individuals**.
 
 ---
 
 ## 🖼️ Visual Overview
 
-### 1. Study design and global association landscape
+### Figure 1 — Study Design and Global Association Landscape
+
 <div align="center">
-  <img src="./Figures/project1/fig1.png" alt="Study design and association landscape" width="88%" />
+  <img
+    src="./Figures/project1/fig1.png"
+    alt="Study design and association landscape"
+    width="88%"
+  />
 </div>
 
 **Highlights:**
-- Cohort design and sampling alignment  
-- Integration of microbiome and multi-system phenotypes  
-- Global association counts across all molecular layers  
+- Cohort design and sampling alignment
+- Integration of microbiome and multi-system phenotypes
+- Global association counts across all molecular layers
 
 ---
 
-### 2. Core strain-level associations
+### Figure 2 — Core Strain-Level Associations
+
 <div align="center">
-  <img src="./Figures/project1/fig2.png" alt="Core strain associations" width="78%" />
+  <img
+    src="./Figures/project1/fig2.png"
+    alt="Core strain-level associations"
+    width="78%"
+  />
 </div>
 
-Representative oral strains showing:
-- Favorable metabolic associations  
-- Adverse associations  
-- Mixed phenotype effects  
+Representative oral strains demonstrating:
+- Favorable metabolic associations
+- Adverse associations
+- Mixed phenotype effects
 
 ---
 
-### 3. Gene-family signatures
+### Figure 3 — Gene-Family Signatures
+
 <div align="center">
-  <img src="./Figures/project1/fig3.png" alt="Gene-family associations" width="78%" />
+  <img
+    src="./Figures/project1/fig3.png"
+    alt="Gene-family associations"
+    width="78%"
+  />
 </div>
 
-Key microbial gene families linked to:
-- Biosynthesis  
-- Replication  
-- Stress response  
-- Metabolic regulation  
+Key microbial gene families associated with:
+- Biosynthesis
+- Replication
+- Stress response
+- Metabolic regulation
 
 ---
 
-### 4. Pathway-level insights
+### Figure 4 — Pathway-Level Insights
+
 <div align="center">
-  <img src="./Figures/project1/fig4.png" alt="Pathway associations" width="78%" />
+  <img
+    src="./Figures/project1/fig4.png"
+    alt="Pathway-level associations"
+    width="78%"
+  />
 </div>
 
 Biologically interpretable pathways, including:
-- Favorable biosynthetic programs  
-- Adverse pathways such as:
-  - Polyamine biosynthesis  
-  - Ceramide-related metabolism  
+- Favorable biosynthetic programs
+- Adverse pathways:
+  - Polyamine biosynthesis
+  - Ceramide-related metabolism
 
 ---
 
-### 5. Disease classification performance
+### Figure 5 — Disease Classification Performance
+
 <div align="center">
-  <img src="./Figures/project1/fig5.png" alt="Disease classification" width="82%" />
+  <img
+    src="./Figures/project1/fig5.png"
+    alt="Disease classification performance"
+    width="82%"
+  />
 </div>
 
-Oral microbiome features improve prediction across multiple metabolic diseases, highlighting **clinical and translational potential**.
+Oral microbiome features significantly enhance prediction across multiple
+metabolic diseases, underscoring their **clinical and translational potential**.
 
 ---
 
-## 📁 Repository Structure
+## 📄 Citation
+
+If you use this code or findings in your research, please cite:
+
+```bibtex
+@article{xue2023oral,
+  title     = {Decoding the Oral Microbiome: Metagenomic Insights
+               into Host Metabolic Health},
+  author    = {Xue, Haochen and Godneva, Anastasia and Tang, Feilong
+               and Li, Huifa and Li, Yulong and Hu, Ming and Li, Ruobing
+               and Su, Jionglong and Segal, Eran and Razzak, Imran},
+  journal   = {Nature Communications},
+  year      = {2023},
+
+}
+
+
+
